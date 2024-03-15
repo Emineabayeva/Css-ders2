@@ -1,0 +1,93 @@
+*{
+ box-sizing: border-box;  
+ margin: 0px; 
+ padding: 0px;
+ list-style-type: none;
+ text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    height: 100px;
+    font-weight: bold;
+    background-color: rgba(13, 47, 110, 0.829)
+    
+    
+}
+header h2{
+    color: white;
+}
+header .header__nav nav ul{
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+} 
+header .header__nav nav ul li a{
+    color: white;
+    font-size: 20px;
+    transition: .2s;
+
+}
+header .header__nav nav ul li a:hover{
+    color: blueviolet; 
+}
+
+
+#men-profile{
+
+}
+#men-profile .profile{
+    background-color:#1abc9c;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#men-profile .profile img{
+    width: 200px;
+    height: 254px;
+
+}
+#men-profile .profile h1{
+    color: white;
+    font-size: 70px;
+}
+#men-profile .profile .star{
+    position: relative;
+    margin-top: 10px;
+}
+#men-profile .profile .star::before{
+    content: "";
+    display: block;
+    background-color: white;
+    width: 120px;
+    height: 5px;
+    position: absolute;
+    right: 80px;
+    top: 36px;
+}
+#men-profile .profile .star::after{
+    content: "";
+    display: block;
+    background-color: white;
+    width: 120px;
+    
+    height: 5px;
+    position: absolute;
+    left: 80px;
+    top: 36px;
+}
+#men-profile .profile .star i{
+    color: white;
+    font-size: 65px;
+}
+#men-profile .profile .text{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+
+
+
+    
